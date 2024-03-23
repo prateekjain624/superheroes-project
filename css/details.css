@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/spider-man-marvel-comics-black-background-superhero-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container a {
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000;
+  margin-left: 30px;
+}
+
+.container a:hover {
+  color: cornflowerblue;
+}
+
+.container img {
+  height: 50px;
+  width: 100px;
+}
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 0.7rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+main {
+  padding: 20px;
+  margin-top: 4rem;
+}
+
+.superhero-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.superhero-details h2 {
+  color: chocolate;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 1rem;
+}
+
+.superhero-img img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.superhero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+}
+
+.superhero-info span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.superhero-info p {
+  margin-bottom: 8px;
+  color: antiquewhite;
+}
